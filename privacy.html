@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Manisha</title>
+<meta name="description" content="Manisha (मनीषा) — AI voice and chat assistant and coding helper for Android.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">Manisha · मनीषा</a>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+<h1>Privacy Policy</h1>
+<p><strong>Effective date:</strong> 31 October 2026</p>
+<p>This policy explains what the Manisha (मनीषा) Android app ("Manisha", "the app"), made by Dipendra Gupta ("we"), collects, how it is used, and your choices. Contact: <a href="mailto:noobgaming925484@gmail.com">noobgaming925484@gmail.com</a>.</p>
+
+<h2>1. Google Sign-In</h2>
+<p>When you sign in with Google, the app requests only the <code>openid</code>, <code>email</code> and <code>profile</code> scopes. From the Google ID token it reads your <strong>email address</strong>, <strong>name</strong> and <strong>Google account ID</strong> ("sub"). The token is sent to our backend (Supabase) to verify it. The app does not access your Gmail messages, Google Drive, Google Contacts, calendar or any other Google data. Your account details are stored on the device encrypted with an Android Keystore key; sign-in tokens are not saved on the device.</p>
+
+<h2>2. Device registration (Supabase)</h2>
+<p>To manage app features such as "Pro Max" access, the app sends a small device record to our Supabase database when it starts:</p>
+<ul>
+  <li>a random install ID created by the app (not your IMEI, serial number or advertising ID),</li>
+  <li>phone manufacturer and model, app version and app edition,</li>
+  <li>the time the app was last seen,</li>
+  <li>your Google email address and Google account ID (if you are signed in).</li>
+</ul>
+<p>A Pro Max entitlement (a digitally signed on/off record) may also be stored for your install ID. This list is visible only to the app owner.</p>
+
+<h2>3. Chats sent to AI providers</h2>
+<p>To answer you, the messages you send (and relevant recent conversation context, plus any image or file you choose to attach) are sent to the AI model provider you select in the app: <strong>Google Gemini</strong> (including Gemini Live for voice), <strong>DeepSeek</strong> or <strong>Anthropic Claude</strong>. These requests use API keys that you enter in the app, and each provider handles that data under its own privacy policy. We do not receive copies of your chats.</p>
+
+<h2>4. Live search and web features</h2>
+<p>If "Google Live Search" is turned on (you can switch it off in the app), search queries may be sent to DuckDuckGo or to Google Search grounding through the Gemini API, and X (Twitter) search if you provide your own X token. If you ask the app to open a link, that web page is fetched. If you ask for an image, your text prompt is sent to the free Pollinations image service.</p>
+
+<h2>5. Microphone</h2>
+<p>The microphone is used only for voice conversations that you start. Audio is streamed to Google Gemini Live to understand and answer you. Voice sessions show an ongoing notification and can be stopped any time. We do not store your recordings on our servers.</p>
+
+<h2>6. Data stored only on your device</h2>
+<p>Chat history, conversation memory, notes/diary, settings, your API keys (encrypted) and location reminders are stored locally on your phone and are not uploaded to our servers. Uninstalling the app or clearing its data removes them.</p>
+
+<h2>7. Optional permissions</h2>
+<p>These are used only when you use the related feature, and the data stays on your device unless stated above:</p>
+<ul>
+  <li><strong>Location</strong> (including background): only for location reminders you create (e.g. "remind me near the market"). Coordinates stay on the device and are not sent to AI providers.</li>
+  <li><strong>Contacts</strong>: to find a contact you ask to call or message.</li>
+  <li><strong>Photos, videos, audio files</strong>: only files you choose to open or attach.</li>
+  <li><strong>Notifications, alarms, display over other apps, start on boot</strong>: for reminders, alarms and the voice assistant.</li>
+  <li><strong>Device admin (lock screen only)</strong>: to lock the phone when you ask. It cannot wipe data or change passwords.</li>
+  <li><strong>Termux</strong>: to run commands in Termux only if you install it and ask.</li>
+  <li><strong>Biometrics</strong>: to unlock protected parts of the app; fingerprint data never leaves Android.</li>
+</ul>
+
+<h2>8. What we do not do</h2>
+<ul>
+  <li>We do <strong>not sell</strong> your personal data, and we do not share it for advertising.</li>
+  <li>The app contains no ads, no analytics and no third-party tracking SDKs.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>All network connections use HTTPS. Access to the device list is restricted on the server to the owner account, and Pro Max records are verified with digital signatures on each device.</p>
+
+<h2>10. Retention and deletion</h2>
+<p>Device records are kept while you use the app. To ask us to delete your device record, email and Google account ID from our database, email <a href="mailto:noobgaming925484@gmail.com">noobgaming925484@gmail.com</a> from your Google account address with the subject "Delete my data". We will delete it within 30 days. You can also sign out in the app, and revoke Manisha's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>11. Children</h2>
+<p>Manisha is not directed at children under 13, and we do not knowingly collect their data.</p>
+
+<h2>12. Changes</h2>
+<p>We may update this policy. Changes will be posted on this page with a new effective date.</p>
+
+<h2>13. Contact</h2>
+<p>Dipendra Gupta — <a href="mailto:noobgaming925484@gmail.com">noobgaming925484@gmail.com</a></p>
+</main>
+<footer>
+  <p>© 2026 Dipendra Gupta · Contact: <a href="mailto:noobgaming925484@gmail.com">noobgaming925484@gmail.com</a></p>
+  <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+</footer>
+</body>
+</html>
